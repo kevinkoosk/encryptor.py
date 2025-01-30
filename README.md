@@ -33,16 +33,20 @@ Save [encryptor.py] to your preferred directory
 ### Key File Usage
 
 *# Encryption with key file*
+
 *python encryptor.py encrypt message.txt encrypted.bin -K keyfile.txt*
 
 *# Decryption with key file*
+
 *python encryptor.py decrypt encrypted.bin message.txt -K keyfile.txt*
 
 ### Checksum Verification
 *# Encryption with integrity check*
+
 *python encryptor.py encrypt data.dat encrypted.bin -k password123 --checksum*
 
 *# Decryption with verification*
+
 *python encryptor.py decrypt encrypted.bin restored.dat -k password123 --checksum*
 
 ### Multiple Pass Encryption
